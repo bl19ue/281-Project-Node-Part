@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Furniture</title>
+		<link rel='stylesheet' href='/stylesheets/style.css' />
+	</head>
+	<body>
+		<h1>Furniture(s):</h1>
+		<% for(var result in getresults){%> 
+		<p>Name : <%= getresults[result].name %></p>
+		<%}%>
+	</body>
+</html>
